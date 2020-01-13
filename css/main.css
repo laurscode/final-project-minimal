@@ -1,0 +1,76 @@
+/**BASE STYLES**/
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#E0ECDE;
+}
+
+#about{
+  height: 1050px;
+}
+
+#portfolio{
+  height :850px;
+}
+
+#contact{
+  height: 650px;
+}
+
+
+/**GRID**/
+.full-width {
+  width:1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width:600px;
+  margin:0 auto;
+  float: left;
+}
+
+.third-width{
+  width:400px;
+  margin: 0 auto;
+  float:left;
+}
+
+/**HEADER**/
+/**NEED TO ADD PADDING AND MARGIN,SPAN TAG (HTML AS WELL), AND FIX IMAGE**/
+
+header{
+  height:800px;
+  background-color:#DDDDDA;
+}
+
+header h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 64pt;
+  font-weight: bold;
+  width:1200px;
+  margin: 65px;
+}
+
+nav{
+  float:right;
+  padding: 25px 25px;
+}
+
+nav ul li{
+  display:inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+  }
+
+  header h2{
+    width:1200px;
+    font-family: 'Playfair Display', serif;
+    font-size: 48pt;
+
+  }
