@@ -48,7 +48,7 @@ header h1{
   font-size: 64pt;
   font-weight: bold;
   width:1200px;
-  margin: 65px;
+  padding: 25px;
 }
 
 nav{
@@ -68,9 +68,39 @@ nav ul li a {
     padding-left: 80px;
   }
 
-  header h2{
+header h2{
     width:1200px;
     font-family: 'Playfair Display', serif;
     font-size: 48pt;
 
   }
+header h1 span{
+  color:#7697A0;
+}
+
+/***ABOUT**/
+#about {
+  background-color: #7697A0;
+}
+#about .full-width{
+  padding: 80px 0;
+}
+
+#about h3{
+font-size:36pt;
+font-family: 'Playfair Display', serif;
+text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#about p{
+  font-size: 24pt;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 40px;
+}
