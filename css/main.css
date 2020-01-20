@@ -36,7 +36,6 @@ body{
 }
 
 /**HEADER**/
-/**NEED TO ADD PADDING AND MARGIN,SPAN TAG (HTML AS WELL), AND FIX IMAGE**/
 
 header{
   height:800px;
@@ -48,7 +47,7 @@ header h1{
   font-size: 64pt;
   font-weight: bold;
   width:1200px;
-  margin: 65px;
+  padding: 25px;
 }
 
 nav{
@@ -68,9 +67,112 @@ nav ul li a {
     padding-left: 80px;
   }
 
-  header h2{
+header h2{
     width:1200px;
     font-family: 'Playfair Display', serif;
     font-size: 48pt;
 
   }
+header h1 span{
+  color:#7697A0;
+}
+
+
+/***ABOUT**/
+#about {
+  background-color: #7697A0;
+}
+#about .full-width{
+  padding: 80px 0;
+}
+
+#about h3{
+font-size:36pt;
+font-family: 'Playfair Display', serif;
+text-align: center;
+}
+
+#about p{
+  font-size: 24pt;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+/**PORTFOLIO**/
+
+#portfolio{
+  background-color:#DDDDDA;
+}
+
+#portfolio h3{
+  font-size:36pt;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+#portfolio .full-width{
+  padding: 80px 0;
+}
+
+#portfolio p.subhead{
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+  }
+
+#portfolio p{
+  font-size: 24pt;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#portfolio img{
+  padding-left:25px;
+  padding-right:25px;
+}
+
+/****CONTACT***/
+
+#contact{
+  background-color:#7697A0;
+}
+
+#contact .full-width{
+  padding: 80px 0;
+}
+
+#contact h3{
+  font-size:36pt;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+#contact p.subhead{
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+#contact p{
+  font-size: 24pt;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 30px;
+  text-align: center;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+#contact p.social{
+text-align: center;
+
+}
+
+#contact img{
+display: inline-block;
+float: none;
+
+}
